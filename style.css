@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html{
+    height: 100%;
+    width: 100%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 25px 133px;
+    gap: 250px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #000;
+    margin-right: 25px;
+    font-size: small;
+}
+
+header nav button{
+    border: 1px;
+    padding: 15px;
+    border-radius: 33%;
+    background-color: blue;
+    color: antiquewhite;
+}
+
+.ri-menu-line{
+    display: none;
+}
+
+main{
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.lz6XUnmLocH8D1OqPB79UAHaFP%26pid%3DApi&f=1&ipt=cf3d55fff217fae6c839372cbe54ac9cd31358b799f9718a5b862659581a4ef9&ipo=images);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 133px;
+}
+
+main button{
+    border: 1px;
+    padding: 20px 50px;
+    border-radius: 33%;
+    color: antiquewhite;
+}
+
+main #donate{
+    margin-right: 15px;
+    background-color: blue;
+}
+
+main #contact-us{
+    opacity: 0.6;
+}
+
+main h1{
+    font-size: 75px;
+}
+
+main h1:nth-child(1){
+    opacity: 0.6;
+    margin-bottom: 66px;
+}
+
+main button{
+    margin-top: 66px;
+}

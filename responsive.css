@@ -1,0 +1,30 @@
+/* low res laptops */
+@media screen and (max-width:1300px) {
+    header{
+        justify-content: space-between;
+    }
+
+    header nav{
+        display: none;
+    }
+    
+    .ri-menu-line{
+        display: initial;
+    }   
+}
+
+/* tablets */
+@media screen and (max-width:1024px) {
+    
+}
+
+/* mobiles */
+@media screen and (max-width:720px) {
+    header{
+        padding: 20px;
+        gap: 175px;
+    }
+    main{
+        padding: 20px;
+    }
+}
